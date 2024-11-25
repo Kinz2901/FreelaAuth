@@ -15,7 +15,7 @@ Aqui está uma prévia do projeto:
   <img src="login.jpg" alt="Demonstração do Projeto" width="700">
 </p>
 
-[💻 **Clique aqui para acessar a aplicação**](https://link-para-aplicacao.com)
+[💻 **Clique aqui para acessar a aplicação**]()
 
 ---
 
