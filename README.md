@@ -1,9 +1,6 @@
 # **🚀 Projeto: FreelaAuth**
 ---
 
-## **📖 Sobre o Projeto**
-Este projeto tem como objetivo [descrever o propósito do projeto]. Ele permite que os usuários [função principal], ajudando a [problema resolvido].
-
 **Principais funcionalidades:**
 - ✅ Cadastrar
 - ✅ Fazer login
