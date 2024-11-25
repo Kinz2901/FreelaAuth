@@ -96,7 +96,8 @@ input:focus ~ label,input:not(:placeholder-shown)~label {
 }
 button {
   font-size: 1.1rem;
-  padding: 8px 0;
+  padding: 12px 0;
+  margin-top: 10px;
   border-radius: 5px;
   outline: none;
   border: none;
@@ -116,7 +117,7 @@ button:hover {
   margin-top: 0.5rem;
   text-align: center;
   gap: 10px;
-  margin: 20px;
+  margin: 20px 0px;
 }
 
 .or::before {
