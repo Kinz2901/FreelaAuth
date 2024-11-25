@@ -56,17 +56,16 @@
           </div>
           <button class="btn" id="submitSignUp">Sign Up</button>
         </form>
-        <p class="or">----------or--------</p>
+        <p class="or">or</p>
         <div class="icons">
           <i class="fab fa-google"></i>
           <i class="fab fa-facebook"></i>
         </div>
         <div class="links">
-          <p>Already Have Account ?</p>
-          <button id="signInButton">Sign In</button>
+          <p class="haveAccount">Already Have Account? <a id="signInButton">Sign In</a></p>
         </div>
       </div>
-      <!-- <div class="container" id="signIn">
+      <div class="container" id="signIn" style="display: none">
         <h1 class="form-title">Sign In</h1>
         <form method="post" action="">
           <div id="signInMessage" class="messageDiv" style="display: none"></div>
@@ -76,30 +75,28 @@
             <label for="email">Email</label>
           </div>
           <div class="input-group">
-            <i class="fas fa-lock"></i>
+            <i class="fas fa-lock" id="lockPasswordLogin"></i>
+            <i class="fas fa-unlock" id="unlockPasswordLogin" style="display: none"></i>
             <input
               type="password"
-              id="password"
+              id="passwordLogin"
               placeholder="Password"
               required
             />
-            <label for="password">Password</label>
+            <label for="passwordLogin">Password</label>
           </div>
           <p class="recover">
             <a href="#">Recover Password</a>
           </p>
           <button class="btn" id="submitSignIn">Sign In</button>
         </form>
-        <p class="or">----------or--------</p>
+        <p class="or">or</p>
         <div class="icons">
           <i class="fab fa-google"></i>
           <i class="fab fa-facebook"></i>
         </div>
-        <div class="links">
-          <p>Don't have account yet?</p>
-          <button id="signUpButton">Sign Up</button>
-        </div>
-      </div> -->
+        <p class="haveAccount">Don't have account yet? <a id="signUpButton">Sign Up</a></p>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>

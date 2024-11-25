@@ -18,6 +18,10 @@ const confirmPassword = document.querySelector("#confirmPassword")
 const lockConfirmPassword = document.querySelector("#lockConfirmPassword")
 const unlocKConfirmPassword = document.querySelector("#unlockConfirmPassword")
 
+const passwordLogin = document.querySelector("#passwordLogin")
+const lockPasswordLogin = document.querySelector("#lockPasswordLogin")
+const unlockPasswordLogin = document.querySelector("#unlockPasswordLogin")
+
 // Mostrar password e password confirm
 lockPassword.addEventListener("click", function() {
   lockPassword.style.display = "none";
@@ -28,6 +32,11 @@ lockConfirmPassword.addEventListener("click", function() {
   lockConfirmPassword.style.display = "none";
   unlocKConfirmPassword.style.display = "flex"
   confirmPassword.type = "string"
+})
+lockPasswordLogin.addEventListener("click", function() {
+  lockPasswordLogin.style.display = "none";
+  unlockPasswordLogin.style.display = "flex"
+  passwordLogin.type = "string"
 })
 
 // Ocultar password e password confirm
@@ -41,14 +50,19 @@ unlocKConfirmPassword.addEventListener("click", function() {
   lockConfirmPassword.style.display = "flex"
   confirmPassword.type = "password"
 })
+unlockPasswordLogin.addEventListener("click", function() {
+  unlockPasswordLogin.style.display = "none";
+  lockPasswordLogin.style.display = "flex"
+  passwordLogin.type = "password"
+})
 
 // Adiciona um ouvinte de eventos ao botão de cadastro
-// signUpButton.addEventListener('click', function () {
-//     // Oculta o formulário de login
-//     signInForm.style.display = "none";
-//     // Exibe o formulário de cadastro
-//     signUpForm.style.display = "block";
-// });
+signUpButton.addEventListener('click', function () {
+    // Oculta o formulário de login
+    signInForm.style.display = "none";
+    // Exibe o formulário de cadastro
+    signUpForm.style.display = "block";
+});
 
 // Adiciona um ouvinte de eventos ao botão de login
 signInButton.addEventListener('click', function () {
