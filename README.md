@@ -1,28 +1,13 @@
-# **🚀 Projeto: Nome do Projeto**
-
-> **Descrição breve**: Uma aplicação incrível que resolve [problema X] utilizando [tecnologias Y].
-
----
-
-## **📋 Índice**
-- [Sobre o Projeto](#-sobre-o-projeto)
-- [Demonstração](#-demonstração)
-- [Tecnologias](#-tecnologias)
-- [Instalação](#-instalação)
-- [Como Usar](#-como-usar)
-- [Contribuição](#-contribuição)
-- [Licença](#-licença)
-- [Contato](#-contato)
-
+# **🚀 Projeto: FreelaAuth**
 ---
 
 ## **📖 Sobre o Projeto**
 Este projeto tem como objetivo [descrever o propósito do projeto]. Ele permite que os usuários [função principal], ajudando a [problema resolvido].
 
 **Principais funcionalidades:**
-- ✅ Funcionalidade 1
-- ✅ Funcionalidade 2
-- ✅ Funcionalidade 3
+- ✅ Cadastrar
+- ✅ Fazer login
+- ✅ Armazenar dados de uma forma segura
 
 ---
 
@@ -39,12 +24,8 @@ Aqui está uma prévia do projeto:
 
 ## **🛠 Tecnologias**
 As principais tecnologias utilizadas neste projeto são:
-- **Frontend**: [React.js, HTML5, CSS3]
-- **Backend**: [Node.js, Express.js]
-- **Banco de Dados**: [MongoDB]
+- **Frontend**: [HTML5, CSS3, JS]
 - **Outras**: [Firebase para autenticação]
-
-**Veja a lista completa no arquivo [package.json](package.json).**
 
 ---
 
@@ -52,4 +33,4 @@ As principais tecnologias utilizadas neste projeto são:
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/Kinz2901/FreelaAuth/tree/main
