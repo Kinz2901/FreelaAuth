@@ -23,41 +23,41 @@ const lockPasswordLogin = document.querySelector("#lockPasswordLogin")
 const unlockPasswordLogin = document.querySelector("#unlockPasswordLogin")
 
 // Mostrar password e password confirm
-lockPassword.addEventListener("click", function() {
+lockPassword.addEventListener("click",()  => {
   lockPassword.style.display = "none";
   unlockPassword.style.display = "flex"
   rPassword.type = "string"
 })
-lockConfirmPassword.addEventListener("click", function() {
+lockConfirmPassword.addEventListener("click",()  => {
   lockConfirmPassword.style.display = "none";
   unlocKConfirmPassword.style.display = "flex"
   confirmPassword.type = "string"
 })
-lockPasswordLogin.addEventListener("click", function() {
+lockPasswordLogin.addEventListener("click",()  => {
   lockPasswordLogin.style.display = "none";
   unlockPasswordLogin.style.display = "flex"
   passwordLogin.type = "string"
 })
 
 // Ocultar password e password confirm
-unlockPassword.addEventListener("click", function() {
+unlockPassword.addEventListener("click",() => {
   unlockPassword.style.display = "none";
   lockPassword.style.display = "flex"
   rPassword.type = "password"
 })
-unlocKConfirmPassword.addEventListener("click", function() {
+unlocKConfirmPassword.addEventListener("click",() => {
   unlocKConfirmPassword.style.display = "none";
   lockConfirmPassword.style.display = "flex"
   confirmPassword.type = "password"
 })
-unlockPasswordLogin.addEventListener("click", function() {
+unlockPasswordLogin.addEventListener("click",() => {
   unlockPasswordLogin.style.display = "none";
   lockPasswordLogin.style.display = "flex"
   passwordLogin.type = "password"
 })
 
 // Adiciona um ouvinte de eventos ao botão de cadastro
-signUpButton.addEventListener('click', function () {
+signUpButton.addEventListener('click', () => {
     // Oculta o formulário de login
     signInForm.style.display = "none";
     // Exibe o formulário de cadastro
@@ -65,7 +65,7 @@ signUpButton.addEventListener('click', function () {
 });
 
 // Adiciona um ouvinte de eventos ao botão de login
-signInButton.addEventListener('click', function () {
+signInButton.addEventListener('click', () => {
     // Exibe o formulário de login
     signInForm.style.display = "block";
     // Oculta o formulário de cadastro
